@@ -22,11 +22,11 @@
 <header class="top"><div><div class="eyebrow" id="monthLabel"></div><h1>My expenses</h1></div></header>
 <div id="installBanner" class="install" hidden>Install this tracker on your phone for quick access from your home screen.<br><button id="installBtn">Add to Home Screen</button></div>
 <section class="hero"><div class="hero-label">Spent this month</div><div class="total" id="monthTotal">₹0</div><div class="stats"><div class="stat"><span>Today</span><strong id="todayTotal">₹0</strong></div><div class="stat"><span>Transactions</span><strong id="txCount">0</strong></div></div></section>
+<button class="fab" id="add">＋ Add expense</button>
 <div class="section-head"><h2>Spending breakdown</h2><span class="eyebrow">This month</span></div>
 <section class="card chart"><div class="pie-row" id="chartArea"></div></section>
 <div class="section-head"><h2>Recent expenses</h2><button class="link" id="allLink">See all</button></div>
 <section class="card list" id="recent"></section>
-<button class="fab" id="add">＋ Add expense</button>
 <section class="view hidden" id="allView"><div class="section-head"><h2>All expenses</h2><button class="link" id="homeLink">Home</button></div><section class="card list" id="allList"></section></section>
 <nav class="bottom"><button class="navbtn active" id="homeNav">⌂<span>Home</span></button><button class="navbtn" id="expenseNav">☷<span>Expenses</span></button></nav>
 <div class="sheet hidden" id="sheet"><div class="sheet-inner"><div class="sheet-head"><h2>Add expense</h2><button class="close" id="close">×</button></div><form id="form"><div class="eyebrow" style="text-align:center">Amount</div><div class="amount-input"><span>₹</span><input id="amount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0" required></div><div class="label">Category</div><div class="categories" id="categories"></div><div class="label">Date</div><input class="input" id="date" type="date" required><div class="label">Note</div><input class="input" id="note" maxlength="70" placeholder="Optional"><div id="error" class="error" hidden></div><button class="save">Save expense</button></form></div></div>
