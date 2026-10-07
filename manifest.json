@@ -1,0 +1,11 @@
+{
+  "name": "My Expenses",
+  "short_name": "Expenses",
+  "description": "A simple private expense tracker",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07090d",
+  "theme_color": "#0b0d10",
+  "orientation": "portrait",
+  "icons": []
+}
